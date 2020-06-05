@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <title>Cuizine-starter</title>
+        <link rel="stylesheet" href="./css/all.min.css"/>
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/><!--href="bootstrap.min.js-->
+        <link rel="stylesheet" href="./css/main.css"/>
+        <link rel="stylesheet" href="./css/homepage.css">
+        <script src="https://kit.fontawesome.com/b9edd80153.js" crossorigin="anonymous"></script>
+        <!--
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"/>
+        -->
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand" href="#">Cui'zine</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsNavAllMarkup">
+                    <ul class="navbar-nav ml-auto"><!--ml-auto : permet de bouger à droit-->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>        
+                                      
+            <div class="header-content">
+                <img src="img/logo_square_white.png" alt="logo de cuizine"/>
+                <h1>cuizine</h1>
+                <h2>Le mag cuisine</h2>
+            </div>   
+            <div class="header-filter"></div>              
+        </header>  
+
+        <main>            
+            <div class="container">
+                <div class="row article">
+                    <div class="col-12">
+                        <h3>Derniers Articles</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-8 content"><!--article-->
+                        <div class="row article">
+                            <div class="col-12 col-md-4">                        
+                                    <img class="img-fluid" src="img/suzette-small.jpg" alt="photo de suzette-small"/>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                    <h4>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h4>
+                                    <p>La frachise "chez Suzette" qui fait un carton chez les bretons ouvre son premier resturant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour les saveurs sucrés, salée au froment ou au sarrazin!</p>
+                            </div>
+                        </div>
+                        <div class="row article">
+                            <div class="col-12 col-md-4">
+                                    <img class="img-fluid" src="img/metro-small.jpg" alt="photo de métro-small"/>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h4>
+                                <p>La frachise "chez Suzette" qui fait un carton chez les bretons ouvre son premier resturant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour les saveurs sucrés, salée au froment ou au sarrazin!</p>
+                            </div>
+                        </div>
+                        <div class="row article">
+                            <div class="col-12 col-md-4">
+                                <img class="img-fluid" src="img/vitaly-small.jpg" alt="photo de vitaly-small"/> 
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Vitaly, le végan italien</h4>
+                                <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les serveurs de l'italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
+                            </div>
+                        </div><!---articles-->
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block aside"> <!--d-none pour disparaitre, d-lg-block pour reapparaitre-->
+                        <div class="row social-media">
+                            <div class="col-12 search">
+                                <h5>Recherche</h5>
+                                <div class="form-inline">                               
+                                    <div class="form-group">
+                                        <label for="recherche">Recherche</label>
+                                        <input type="text" class="form-control" placeholder="Recherche">
+                                        <button type="button" class="btn btn-outline-dark">Ok</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 newsletter">
+                                <h5>Newsletter</h5>
+                                <div class="form-inline">
+                                    <div class="form-group"> 
+                                        <label for="newsletter">Newsletter</label>
+                                        <input type="email" class="form-control" placeholder="Email">
+                                        <button type="button" class="btn btn-outline-dark">S'inscrire</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 share">
+                                <div class="form-group">
+                                    <label for="Partager">Partager</label>
+                                    <ul>
+                                        <li>
+                                            <i class="fab fa-facebook-square"></i>&nbsp;<a src="https://konexio.eu" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-instagram"></i>&nbsp;<a src="https://konexio.eu" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-youtube"></i>&nbsp;<a src="https://konexio.eu" target="_blank"></a>
+                                        </li>
+                                        <li>
+                                            <i class="fab fa-twitter"></i>&nbsp;<a src="https://konexio.eu" target="_blank"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>      
+            <div class="row previous-page">
+                <div class="col-12">
+                    <a href="#">&laquo; Voir les articles précédents</a>
+                </div>
+            </div>           
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row categories">
+                    <div class="col-12 catégories">
+                        <h3>Catégories</h3>
+                        <a href="https://konexio.eu" target="_blank">Revues</a>
+                        <a href="https://konexio.eu" target="_blank">Recettes</a>
+                        <a href="https://konexio.eu" target="_blank">Découvertes</a>
+                    </div>
+                </div>
+
+                <div class="row archives">
+                    <div class="col-12 archives">
+                        <h3>Archives</h3>
+                        <a href="https://konexio.eu" target="_blank">2019</a>
+                        <a href="https://konexio.eu" target="_blank">2018</a>
+                        <a href="https://konexio.eu" target="_blank">2017</a>
+                    </div>
+                </div>    
+               
+                <div class="row social-media">
+                    <div class="col-12 newsletter">
+                        <h3>Newsletter</h3>
+                        <div class="form-inline">
+                            <div class="form-group"> 
+                                <label class="sr-only" for="newsletter-email">Newsletter</label>
+                                <input id="newsletter-email" type="email" class="form-control" placeholder="Email...">
+                                <button type="button" class="btn btn-outline-dark">S'inscrire</button>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col-12 share">
+                        <h3>Partager</h3>                                          
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>                           
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </footer>
+    </body>
+</htmlW>

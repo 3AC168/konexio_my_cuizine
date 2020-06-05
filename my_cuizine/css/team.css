@@ -1,0 +1,92 @@
+/* Base */
+font-face{
+    font-family: "Oswald";
+    font-weight: normal;
+    src: url("Oswald-Light.ttf"), url("Oswald-Regular.ttf"), url("Oswald-Medium.ttf"), url("Oswald-SemiBold.ttf");
+    /*Par défaut, la balise body possède des marges margin de 8px.*/
+}
+    
+font-face{
+    font-family: "Courgette";
+    font-weight: normal;
+    src: url("Courgette-Regular.ttf");
+    /*Par défaut, la balise body possède des marges margin de 8px.*/
+}
+   
+/* Header */ 
+body{  
+    font-family: 'Oswald', 'Courgette', sans-serif;
+    /*font-weight: 200px;*/
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Courgette', cursive;
+}
+
+nav{
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+nav a{
+    font-family: 'Courgette', cursive;
+}
+nav div a{
+    font-family: 'Oswald', normal; 
+}
+/*nav div ul{
+    display: inline-flex;
+    margin-left: 600px;
+    float: right; 
+}*/
+
+main img{
+     width : 100px;
+     height: 100px;
+     border-radius: 50px;
+}
+
+main h4{
+    font-family: 'Courgette', cursive;
+    
+}
+.name1 name2 name3 name4 name5 name6{
+    justify-content: center;
+} 
+
+.name {
+    text-align: center;
+}
+
+header {
+    position : relative;
+    background-image: url(../img/team/team.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: none;
+    /*same as background: url("header.jpg") center center none;*/ 
+    /*same as background-position: center center;*/
+    text-align: center;
+    color : white;
+    margin-bottom: 45px;
+    /*opacity: 0.5;
+    z-index: -1;*/
+}
+
+.header-filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    z-index: 0;
+}
+
+.header-content{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+

@@ -1,0 +1,119 @@
+/* Base */
+font-face{
+    font-family: "Oswald";
+    font-weight: normal;
+    src: url("Oswald-Light.ttf"), url("Oswald-Regular.ttf"), url("Oswald-Medium.ttf"), url("Oswald-SemiBold.ttf");
+    /*Par défaut, la balise body possède des marges margin de 8px.*/
+}
+    
+font-face{
+    font-family: "Courgette";
+    font-weight: normal;
+    src: url("Courgette-Regular.ttf");
+    /*Par défaut, la balise body possède des marges margin de 8px.*/
+}
+   
+/* Header */ 
+body{  
+    font-family: 'Oswald', 'Courgette', sans-serif;
+    /*font-weight: 200px;*/
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Courgette', cursive;
+}
+
+nav{
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+nav a{
+    font-family: 'Courgette', cursive;
+}
+nav div a{
+    font-family: 'Oswald', normal; 
+}
+/*nav div ul{
+    display: inline-flex;
+    margin-left: 600px;
+    float: right; 
+}*/
+
+/*header - homepage, contact */
+
+
+.col-12 h3{
+    font-family: 'Oswald', normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+
+
+h4{
+    font-family: 'Courgette', cursive; 
+}
+
+div button{
+    width: 132px;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 0;
+    padding:0;
+}
+
+footer{
+    background-color : black;
+    color: white; 
+    font-family: 'Oswald';
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+
+footer div ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+
+footer h3{
+    font-family: 'Courgette', cursive;
+}
+h3 a{
+    display: list-item block;
+}
+/*
+input.form-group Email{
+    width: 133px;
+}
+footer div button{
+    width: 133px;
+}
+*/
+footer div li {
+    
+    background-color: black;
+    display: flex;
+    width: 33px;
+    height: 33px;
+    border-radius: 10%;
+}
+
